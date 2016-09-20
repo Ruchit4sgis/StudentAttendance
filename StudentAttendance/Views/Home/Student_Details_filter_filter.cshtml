@@ -1,0 +1,56 @@
+﻿@model IEnumerable<StudentAttendance.Student_Details>
+
+@{
+    ViewBag.Title = "Filtered Student List";
+}
+
+<h2>
+    Filtered Student List : @ViewBag.section
+</h2><p>
+    @Html.ActionLink("Back to Complect List", "Student_Details")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Member_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Branch)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Section)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.House)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Member_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Branch)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Section)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.House)
+        </td>
+        <td>
+            <button class="btn btn-danger" onclick="location.href='@Url.Action("CreatAbsents_swami_forfilter", new { id = item.id })'">Absent</button>
+
+        </td>
+    </tr>
+}
+
+</table>

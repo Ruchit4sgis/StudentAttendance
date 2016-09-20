@@ -1,0 +1,127 @@
+﻿@model IEnumerable<StudentAttendance.Student_Details>
+
+@{
+    ViewBag.Title = "Student_Details";
+}
+
+
+<script src="~/Content/Datapicker/jquery/jquery-1.10.2.js"></script>
+
+<body>
+    <div class="container body-content">
+     
+        <h2>Student Details</h2>
+
+      
+        <hr />
+        @using (Html.BeginForm("Student_Details_filter", "Home","POST"))
+        {   
+            <div class="row">
+                   <div class="col-sm-3">
+                       <label >Search Any thing : </label>
+                       <input id="searchInput" placeholder="Value to Filter" class="form-control" />
+                   </div>
+                   <div class="col-sm-3">
+                       <label>Enter Section Name :</label>
+                       <input id="section_search" name="section_search" placeholder="Section to Filter" class="form-control" />
+                   </div>
+                <div class="col-sm-3">
+                   <label>•</label><br />
+                    <button type="submit" class="btn btn-success" name="search">Search</button>
+                </div>
+            </div>
+        }
+        
+        <hr />
+       <table class="table table-hover search-table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Member_id)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Branch)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Section)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.House)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+           <tbody id="fbody">
+               @foreach (var item in Model)
+               {
+
+                   <tr>
+                       <td>
+                           @Html.DisplayFor(modelItem => item.Member_id)
+                       </td>
+                       <td>
+                           @Html.DisplayFor(modelItem => item.Branch)
+                       </td>
+                       <td>
+                           @Html.DisplayFor(modelItem => item.Name)
+                       </td>
+                       <td>
+                           @Html.DisplayFor(modelItem => item.Section)
+                       </td>
+                       <td>
+                           @Html.DisplayFor(modelItem => item.House)
+                       </td>
+                       <td>
+                           <button class="btn btn-danger" onclick="location.href='@Url.Action("CreatAbsents_swami", new { id = item.id })'">Absent</button>
+                           @*<button class="btn-warning" onclick="location.href='@Url.Action("CreatAbsents_o", new { id = item.id })'">Absent with Letter</button>*@
+                           @*@Html.ActionLink("Absent", "CreatAbsents", new { id=item.id }) |
+                        @Html.ActionLink("Details", "Details", new { id=item.id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.id })*@
+                       </td>
+                   </tr>
+
+               }
+           </tbody>
+        </table>
+     </div>   
+    <script>
+        $("#searchInput").keyup(function () {
+            //split the current value of searchInput
+            var data = this.value.split(" ");
+            //create a jquery object of the rows
+            var jo = $("#fbody").find("tr");
+            if (this.value == "") {
+                jo.show();
+                return;
+            }
+            //hide all the rows
+            jo.hide();
+
+            //Recusively filter the jquery object to get results.
+            jo.filter(function (i, v) {
+                var $t = $(this);
+                for (var d = 0; d < data.length; ++d) {
+                    if ($t.is(":contains('" + data[d] + "')")) {
+                        return true;
+                    }
+                }
+                return false;
+            })
+            //show the rows that match.
+            .show();
+        }).focus(function () {
+            this.value = "";
+            $(this).css({
+                "color": "black"
+            });
+            $(this).unbind('focus');
+        }).css({
+            "color": "#C0C0C0"
+        });
+    </script>
+</body>
+
+

@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="background-color:#272525;color:#ffffff">
+    <h1>Student Attendance</h1>
+    <p class="lead">Jay Swaminarayan! Welcome to <ins> Online Student Attendance!</ins> Makes Easy to Take Attendance and to make Analytics </p>
+    @*<p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
+</div>
+
+<div class="row">
+    <div class="col-md-4" style="background-color:#1290eb;color:#ffffff;height:170px">
+        <h2 style="padding-top:10px">Explore Students</h2>
+        <p>
+            Can View All Basic Student Detils Accociated with Gurukul
+        </p>
+        <p><a class="btn btn-default" href="~/Home/Student_Details">Explore &raquo;</a></p>
+        @*@Html.ActionLink("Explore", "EmployeeDetails", null , new { @class = "btn-default", @style = "padding-right:50px;" })*@
+
+    </div>
+    <div class="col-md-4" style="background-color:#ff6a00;color:#ffffff;height:170px">
+        <h2 style="padding-top:10px">Attendance Details</h2>
+        <p>You Can View the Absent Details of all the Student by Exploring it.</p>
+        <p><a class="btn btn-default" href="~/Home/AbsentsDetails">Explore &raquo;</a></p>
+    </div>
+    <div class="col-md-4" style="background-color:#27cea5;color:#ffffff;height:170px">
+        <h2 style="padding-top:10px">Add New Student</h2>
+        <p>You Can Create or Add a New Student.</p>
+        <p><a class="btn btn-default" href="~/Home/CreatStudent">Explore &raquo;</a></p>
+    </div>
+</div>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="database_student.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Absent">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Member_id" Type="nchar" MaxLength="10" />
+          <Property Name="Branch" Type="nchar" MaxLength="10" />
+          <Property Name="Name" Type="nchar" MaxLength="10" />
+          <Property Name="Section" Type="nchar" MaxLength="10" />
+          <Property Name="Pewsent_Absent" Type="nchar" MaxLength="10" />
+          <Property Name="with_letter" Type="nchar" MaxLength="10" />
+          <Property Name="Date" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Absent_swami">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Member_id" Type="nvarchar(max)" />
+          <Property Name="Branch" Type="nvarchar(max)" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Section" Type="nvarchar(max)" />
+          <Property Name="Pewsent_Absent" Type="nvarchar(max)" />
+          <Property Name="with_letter" Type="nvarchar(max)" />
+          <Property Name="Date" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Student_Details">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Member_id" Type="nvarchar(max)" />
+          <Property Name="Branch" Type="nvarchar(max)" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Section" Type="nvarchar(max)" />
+          <Property Name="House" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityContainer Name="database_studentStoreContainer">
+          <EntitySet Name="Absent" EntityType="Self.Absent" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Absent_swami" EntityType="Self.Absent_swami" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Student_Details" EntityType="Self.Student_Details" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="database_student" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="database_studentContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Student_Details" EntityType="database_student.Student_Details" />
+          <EntitySet Name="Absents" EntityType="database_student.Absent" />
+          <EntitySet Name="Absent_swami" EntityType="database_student.Absent_swami" />
+        </EntityContainer>
+        <EntityType Name="Student_Details">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Member_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Branch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Section" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="House" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Absent">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="Member_id" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Branch" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Section" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Pewsent_Absent" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="with_letter" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Date" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Absent_swami">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Member_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Branch" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Section" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Pewsent_Absent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="with_letter" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Date" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="database_student" />
+        <Alias Key="Target" Value="database_student.Store" />
+        <EntityContainerMapping CdmEntityContainer="database_studentContainer" StorageEntityContainer="database_studentStoreContainer">
+          <EntitySetMapping Name="Student_Details">
+            <EntityTypeMapping TypeName="database_student.Student_Details">
+              <MappingFragment StoreEntitySet="Student_Details">
+                <ScalarProperty Name="House" ColumnName="House" />
+                <ScalarProperty Name="Section" ColumnName="Section" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+                <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Absents">
+            <EntityTypeMapping TypeName="database_student.Absent">
+              <MappingFragment StoreEntitySet="Absent">
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="with_letter" ColumnName="with_letter" />
+                <ScalarProperty Name="Pewsent_Absent" ColumnName="Pewsent_Absent" />
+                <ScalarProperty Name="Section" ColumnName="Section" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+                <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Absent_swami">
+            <EntityTypeMapping TypeName="database_student.Absent_swami">
+              <MappingFragment StoreEntitySet="Absent_swami">
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="with_letter" ColumnName="with_letter" />
+                <ScalarProperty Name="Pewsent_Absent" ColumnName="Pewsent_Absent" />
+                <ScalarProperty Name="Section" ColumnName="Section" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Branch" ColumnName="Branch" />
+                <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

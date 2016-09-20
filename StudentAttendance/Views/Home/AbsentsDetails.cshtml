@@ -1,0 +1,128 @@
+﻿@model IEnumerable<StudentAttendance.Absent_swami>
+
+@{
+    ViewBag.Title = "AbsentsDetails";
+}
+@{ Layout = null;}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="~/Content/html-table-search.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('table.search-table').tableSearch({
+                searchText: 'Search Table',
+                searchPlaceHolder: 'Input Value'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container body-content">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Gurukulite Attendance", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Explore Student", "Student_Details", "Home")</li>
+                        <li>@Html.ActionLink("Absent Details", "AbsentsDetails", "Home")</li>
+                        <li>@Html.ActionLink("Add Student", "CreatStudent", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>AbsentsDetails</h2>
+
+        <p>
+            @Html.ActionLink("Create New Absent", "Student_Details")
+        </p>
+        <table class="table table-hover search-table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayName("Member Id")
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Branch)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Section)
+                    </th>
+                    <th>
+                        @Html.DisplayName("Absent / Present")
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.with_letter)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </th>
+                    <th></th>
+            </thead>
+            <tbody>
+                </tr>
+
+                @foreach (var item in Model)
+            {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Member_id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Branch)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Section)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Pewsent_Absent)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.with_letter)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Delete", "Delete_Absent", new { id = item.id })
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+
+        </table>
+        </div>
+    <div class="container body-content">
+       
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - <strong>Gurukul Arts</strong>,Hyderabad</p>
+        </footer>
+    </div>
+        </body>
+</html>
