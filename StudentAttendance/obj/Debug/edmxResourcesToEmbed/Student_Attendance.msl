@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="StudentAttendance" />
+  <Alias Key="Target" Value="StudentAttendance.Store" />
+  <EntityContainerMapping CdmEntityContainer="StudentAttendanceContainer" StorageEntityContainer="StudentAttendanceStoreContainer">
+    <EntitySetMapping Name="Absents">
+      <EntityTypeMapping TypeName="StudentAttendance.Absent">
+        <MappingFragment StoreEntitySet="Absent">
+          <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+          <ScalarProperty Name="with_letter" ColumnName="with_letter" />
+          <ScalarProperty Name="Present_Absent" ColumnName="Present_Absent" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student_Details">
+      <EntityTypeMapping TypeName="StudentAttendance.Student_Details">
+        <MappingFragment StoreEntitySet="Student_Details">
+          <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+          <ScalarProperty Name="House" ColumnName="House" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

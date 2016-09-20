@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@{
+    string username = @Session["LogedUserFullname"].ToString();
+}
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -24,7 +28,12 @@
                     <li>@Html.ActionLink("Explore Student", "Student_Details", "Home")</li>
                     <li>@Html.ActionLink("Absent Details", "AbsentsDetails", "Home")</li>
                     <li>@Html.ActionLink("Add Student", "CreatStudent", "Home")</li>
+                    
+                    
                                         
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>@Html.Label(username)</li>
                 </ul>
             </div>
         </div>

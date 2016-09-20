@@ -1,0 +1,132 @@
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\csc.exe
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\vbc.exe
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\VBCSCompiler.exe
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\StudentAttendance.dll.config
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\StudentAttendance.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\StudentAttendance.pdb
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\Antlr3.Runtime.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\EntityFramework.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\Newtonsoft.Json.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Helpers.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Mvc.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Optimization.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Razor.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.WebPages.Deployment.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.WebPages.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.WebPages.Razor.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\WebGrease.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\EntityFramework.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Helpers.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Mvc.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Optimization.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.Razor.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.WebPages.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.WebPages.Deployment.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\System.Web.WebPages.Razor.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\Antlr3.Runtime.pdb
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\Newtonsoft.Json.xml
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\obj\Debug\StudentAttendance.csprojResolveAssemblyReference.cache
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\obj\Debug\StudentAttendance.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\obj\Debug\StudentAttendance.pdb
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\EntityFramework.SqlServer.dll
+c:\users\ruchit\documents\visual studio 2015\Projects\StudentAttendance\StudentAttendance\bin\EntityFramework.SqlServer.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\csc.exe
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\vbc.exe
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\StudentAttendance.dll.config
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\StudentAttendance.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\StudentAttendance.pdb
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\Antlr3.Runtime.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\EntityFramework.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\EntityFramework.SqlServer.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\Newtonsoft.Json.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Helpers.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Mvc.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Optimization.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Razor.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.WebPages.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\WebGrease.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\EntityFramework.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\EntityFramework.SqlServer.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Helpers.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Mvc.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Optimization.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.Razor.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.WebPages.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\Antlr3.Runtime.pdb
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\bin\Newtonsoft.Json.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\obj\Debug\StudentAttendance.csprojResolveAssemblyReference.cache
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\obj\Debug\StudentAttendance.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\14-9-16\StudentAttendance\obj\Debug\StudentAttendance.pdb
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\csc.exe
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\vbc.exe
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\StudentAttendance.dll.config
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\StudentAttendance.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\StudentAttendance.pdb
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\Antlr3.Runtime.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\EntityFramework.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\EntityFramework.SqlServer.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\Newtonsoft.Json.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Helpers.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Mvc.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Optimization.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Razor.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.WebPages.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\WebGrease.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\EntityFramework.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\EntityFramework.SqlServer.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Helpers.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Mvc.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Optimization.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.Razor.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.WebPages.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\Antlr3.Runtime.pdb
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\bin\Newtonsoft.Json.xml
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\obj\Debug\StudentAttendance.csprojResolveAssemblyReference.cache
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\obj\Debug\StudentAttendance.dll
+C:\Users\Ruchit\Documents\Visual Studio 2015\Projects\StudentAttendance\StudentAttendance LIVE\StudentAttendance\obj\Debug\StudentAttendance.pdb

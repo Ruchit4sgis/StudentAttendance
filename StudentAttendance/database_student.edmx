@@ -31,6 +31,15 @@
           <Property Name="with_letter" Type="nvarchar(max)" />
           <Property Name="Date" Type="nvarchar(max)" />
         </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="username" Type="nvarchar(max)" />
+          <Property Name="password" Type="nvarchar(max)" />
+          <Property Name="role" Type="nvarchar(max)" />
+        </EntityType>
         <EntityType Name="Student_Details">
           <Key>
             <PropertyRef Name="id" />
@@ -45,6 +54,7 @@
         <EntityContainer Name="database_studentStoreContainer">
           <EntitySet Name="Absent" EntityType="Self.Absent" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Absent_swami" EntityType="Self.Absent_swami" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="login" EntityType="Self.login" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Student_Details" EntityType="Self.Student_Details" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
@@ -55,6 +65,7 @@
           <EntitySet Name="Student_Details" EntityType="database_student.Student_Details" />
           <EntitySet Name="Absents" EntityType="database_student.Absent" />
           <EntitySet Name="Absent_swami" EntityType="database_student.Absent_swami" />
+          <EntitySet Name="logins" EntityType="database_student.login" />
         </EntityContainer>
         <EntityType Name="Student_Details">
           <Key>
@@ -92,6 +103,15 @@
           <Property Name="Pewsent_Absent" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="with_letter" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Date" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="login">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="username" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="role" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -137,6 +157,16 @@
                 <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="Branch" ColumnName="Branch" />
                 <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="logins">
+            <EntityTypeMapping TypeName="database_student.login">
+              <MappingFragment StoreEntitySet="login">
+                <ScalarProperty Name="role" ColumnName="role" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="username" ColumnName="username" />
                 <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>

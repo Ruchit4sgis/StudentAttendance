@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="database_student" />
+  <Alias Key="Target" Value="database_student.Store" />
+  <EntityContainerMapping CdmEntityContainer="database_studentContainer" StorageEntityContainer="database_studentStoreContainer">
+    <EntitySetMapping Name="Student_Details">
+      <EntityTypeMapping TypeName="database_student.Student_Details">
+        <MappingFragment StoreEntitySet="Student_Details">
+          <ScalarProperty Name="House" ColumnName="House" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Absents">
+      <EntityTypeMapping TypeName="database_student.Absent">
+        <MappingFragment StoreEntitySet="Absent">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="with_letter" ColumnName="with_letter" />
+          <ScalarProperty Name="Pewsent_Absent" ColumnName="Pewsent_Absent" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Absent_swami">
+      <EntityTypeMapping TypeName="database_student.Absent_swami">
+        <MappingFragment StoreEntitySet="Absent_swami">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="with_letter" ColumnName="with_letter" />
+          <ScalarProperty Name="Pewsent_Absent" ColumnName="Pewsent_Absent" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="Member_id" ColumnName="Member_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="logins">
+      <EntityTypeMapping TypeName="database_student.login">
+        <MappingFragment StoreEntitySet="login">
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

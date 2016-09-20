@@ -5,9 +5,10 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="421aca8564484fcbac42184df0f772df" Name="Diagram1" >
-        <EntityTypeShape EntityType="database_student.Student_Details" Width="1.5" PointX="2.75" PointY="0.75" />
-        <EntityTypeShape EntityType="database_student.Absent" Width="1.5" PointX="5" PointY="1.25" />
+        <EntityTypeShape EntityType="database_student.Student_Details" Width="1.5" PointX="5.75" PointY="1.5" />
+        <EntityTypeShape EntityType="database_student.Absent" Width="1.5" PointX="0.5" PointY="6.25" />
         <EntityTypeShape EntityType="database_student.Absent_swami" Width="1.5" PointX="7.625" PointY="1.5" />
+        <EntityTypeShape EntityType="database_student.login" Width="1.5" PointX="3.875" PointY="1.5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

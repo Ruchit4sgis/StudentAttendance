@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="database_student.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Absent">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Member_id" Type="nchar" MaxLength="10" />
+    <Property Name="Branch" Type="nchar" MaxLength="10" />
+    <Property Name="Name" Type="nchar" MaxLength="10" />
+    <Property Name="Section" Type="nchar" MaxLength="10" />
+    <Property Name="Pewsent_Absent" Type="nchar" MaxLength="10" />
+    <Property Name="with_letter" Type="nchar" MaxLength="10" />
+    <Property Name="Date" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Absent_swami">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Member_id" Type="nvarchar(max)" />
+    <Property Name="Branch" Type="nvarchar(max)" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Section" Type="nvarchar(max)" />
+    <Property Name="Pewsent_Absent" Type="nvarchar(max)" />
+    <Property Name="with_letter" Type="nvarchar(max)" />
+    <Property Name="Date" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="login">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar(max)" />
+    <Property Name="password" Type="nvarchar(max)" />
+    <Property Name="role" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Student_Details">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Member_id" Type="nvarchar(max)" />
+    <Property Name="Branch" Type="nvarchar(max)" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Section" Type="nvarchar(max)" />
+    <Property Name="House" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="database_studentStoreContainer">
+    <EntitySet Name="Absent" EntityType="Self.Absent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Absent_swami" EntityType="Self.Absent_swami" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="login" EntityType="Self.login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student_Details" EntityType="Self.Student_Details" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

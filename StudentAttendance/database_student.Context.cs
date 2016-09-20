@@ -28,5 +28,6 @@ namespace StudentAttendance
         public DbSet<Student_Details> Student_Details { get; set; }
         public DbSet<Absent> Absents { get; set; }
         public DbSet<Absent_swami> Absent_swami { get; set; }
+        public DbSet<login> logins { get; set; }
     }
 }

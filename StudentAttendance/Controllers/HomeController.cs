@@ -10,9 +10,18 @@ namespace StudentAttendance.Controllers
     public class HomeController : Controller
     {
         database_studentContainer context = new database_studentContainer();
+
+
         public ActionResult Index()
         {
-            return View();
+            if (Session["LogedUserID"] != null)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("login");
+            }           
         }
 
         public ActionResult About()
@@ -67,6 +76,7 @@ namespace StudentAttendance.Controllers
         {
             return View(context.Absent_swami.ToList());
         }
+
         public ActionResult CreatAbsents(int id)
         {
 
@@ -96,7 +106,8 @@ namespace StudentAttendance.Controllers
             }
             return View();            
         }
-         public ActionResult CreatAbsents_o(int id)
+
+        public ActionResult CreatAbsents_o(int id)
         {
 
             var a = context.Student_Details.Single(emp => emp.id == id);
@@ -157,8 +168,6 @@ namespace StudentAttendance.Controllers
             return View();
         }
 
-
-
         public ActionResult CreatAbsents_swami_forfilter(int id)
         {
 
@@ -176,7 +185,6 @@ namespace StudentAttendance.Controllers
             ViewBag.house = house.ToString();
             return View();
         }
-
         
         public void CreatAbsents_swami_forfilter_post(Absent_swami emp,string sections)
         {
@@ -191,21 +199,6 @@ namespace StudentAttendance.Controllers
            
         }
 
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
         public ActionResult Delete_Absent(int id)
         {
             
@@ -215,6 +208,30 @@ namespace StudentAttendance.Controllers
             return RedirectToAction("AbsentsDetails");
         }
 
+        public ActionResult login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        
+        public ActionResult login(login emp)
+        {
+            if (ModelState.IsValid) // this is check validity
+            {
+                using (database_studentContainer dc = new database_studentContainer())
+                {
+                    var v = dc.logins.Where(a => a.username.Equals(emp.username) && a.password.Equals(emp.password)).FirstOrDefault();
+                    if(v!=null)
+                    {
+                        Session["LogedUserID"] = v.username.ToString();
+                        Session["LogedUserFullname"] = v.username.ToString();
+                        return RedirectToAction("Index");
+                    }
+                }
+            }
+            return View();
+        }
 
     }
 }
